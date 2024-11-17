@@ -10,7 +10,7 @@ namespace LoginApp.Services
         private readonly ITokenService _tokenService;
 
         public UserService(
-            IUserRepository userRepository, 
+            IUserRepository userRepository,
             ITokenService tokenService)
         {
             _userRepository = userRepository;
